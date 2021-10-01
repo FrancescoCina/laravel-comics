@@ -1,0 +1,46 @@
+header{
+    height:150px;
+    .header-top{
+        height: 15%;
+        background-color:$main-color;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        font-weight: bold;
+        color:#fff;
+        .card-info, 
+        .additional-info{
+            margin: 0 15px;
+        }
+    }
+    .header-bottom{
+        height: 85%;
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        .search{
+            margin-left: 30px;
+            border-bottom: 1px solid $main-color;
+            input{
+                border: none;
+            }
+        }
+    }
+    .logo{
+        width: 60px;;
+    }
+    ul{
+        display: flex;
+        list-style-type: none;
+        li{
+            margin: 0 10px;
+            a {
+                text-decoration: none;
+                color:#000;
+                text-transform: uppercase;
+                font-weight: bold;
+            }  
+        } 
+    }
+}
