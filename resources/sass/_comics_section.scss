@@ -1,0 +1,20 @@
+#comics{
+    min-height: 800px;
+        background-color: #1c1c1c;
+    .comics-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 30px;
+        .card{
+            flex-basis: calc(100% / 6);
+            margin: 10px 20px;
+            h5{
+                color:#fff;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+        }
+    }
+
+}

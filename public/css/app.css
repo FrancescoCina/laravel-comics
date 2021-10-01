@@ -59,9 +59,29 @@ header ul li a {
 }
 
 #jumbotron {
-  height: 500px;
+  height: 350px;
   background-image: url("../images/jumbotron.jpg");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#comics {
+  min-height: 800px;
+  background-color: #1c1c1c;
+}
+#comics .comics-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 30px;
+}
+#comics .comics-container .card {
+  flex-basis: 16.6666666667%;
+  margin: 10px 20px;
+}
+#comics .comics-container .card h5 {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
 }

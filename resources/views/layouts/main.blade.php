@@ -11,7 +11,7 @@
     @include('includes.header');
     <main>
         @yield('jumbotron')
-
+        @include('includes.comics')
     </main>
     <footer></footer>
 </body>
