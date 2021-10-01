@@ -9,7 +9,10 @@
 </head>
 <body>
     @include('includes.header');
-    <main></main>
+    <main>
+        @yield('jumbotron')
+
+    </main>
     <footer></footer>
 </body>
 </html>

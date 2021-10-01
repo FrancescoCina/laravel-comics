@@ -12,7 +12,7 @@ img {
 }
 
 header {
-  height: 150px;
+  height: 100px;
 }
 header .header-top {
   height: 15%;
@@ -56,4 +56,12 @@ header ul li a {
   color: #000;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+#jumbotron {
+  height: 500px;
+  background-image: url("../images/jumbotron.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
