@@ -77,7 +77,7 @@ header ul li a {
   padding: 25px 0;
 }
 #comics .btn-container .btn {
-  width: 100px;
+  width: 150px;
   height: 30px;
   text-transform: uppercase;
 }
@@ -101,4 +101,25 @@ header ul li a {
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+#services {
+  height: 150px;
+  background-color: #0282f9;
+}
+#services .services-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+#services .services-container .service {
+  flex-basis: 20%;
+  display: flex;
+  align-items: center;
+}
+#services .services-container .service h6 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: 5px;
 }
