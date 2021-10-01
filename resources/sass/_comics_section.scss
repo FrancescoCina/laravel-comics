@@ -1,6 +1,23 @@
 #comics{
     min-height: 800px;
         background-color: #1c1c1c;
+    .btn-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px 0;
+        .btn{
+            width: 100px;
+            height: 30px;
+            text-transform: uppercase;
+        }
+        .btn-main{
+            background-color: $main-color;
+            color:#fff;
+            font-weight: bold;
+            font-size: 12px;
+        }  
+    }   
     .comics-container{
         display: flex;
         flex-wrap: wrap;

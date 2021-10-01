@@ -70,6 +70,23 @@ header ul li a {
   min-height: 800px;
   background-color: #1c1c1c;
 }
+#comics .btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+}
+#comics .btn-container .btn {
+  width: 100px;
+  height: 30px;
+  text-transform: uppercase;
+}
+#comics .btn-container .btn-main {
+  background-color: #0282f9;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+}
 #comics .comics-container {
   display: flex;
   flex-wrap: wrap;

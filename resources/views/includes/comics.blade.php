@@ -8,11 +8,10 @@
                 <h5>{{ $comic['title'] }}</h5>
             </div>
                     
-            @endforeach
-            
-            
-            
-
+            @endforeach       
+        </div>
+        <div class="btn-container">
+            <button class="btn btn-main" type="button">Load More</button>
         </div>
     </div>
 
