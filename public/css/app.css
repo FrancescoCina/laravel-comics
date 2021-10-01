@@ -58,6 +58,45 @@ header ul li a {
   font-weight: bold;
 }
 
+footer {
+  height: 600px;
+  background-image: url("../images/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer .top-footer {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+footer .top-footer .footer-links {
+  flex-basis: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .top-footer .footer-links ul {
+  flex-basis: 30%;
+  list-style-type: none;
+}
+footer .top-footer .footer-links ul h5 {
+  color: #fff;
+  text-transform: uppercase;
+}
+footer .top-footer .footer-links ul a {
+  color: grey;
+  text-decoration: none;
+}
+footer .top-footer .footer-links p {
+  color: grey;
+}
+footer .top-footer .footer-links p span {
+  color: #0282f9;
+}
+footer .top-footer .bkg-logo {
+  flex-basis: 50%;
+  height: 70%;
+}
+
 #jumbotron {
   height: 350px;
   background-image: url("../images/jumbotron.jpg");
