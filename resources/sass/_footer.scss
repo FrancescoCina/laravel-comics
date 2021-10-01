@@ -37,5 +37,40 @@ footer{
             flex-basis: 50%;
             height: 70%;
         }
-    }    
+    }   
+    .bottom-footer{
+        background-color: #303030;
+        height: 150px;
+
+        .cols{
+            display: flex;
+            align-items: center;
+            padding-top: 50px;
+            .button-col{
+                flex-basis: 50%;
+                .button{
+                    width: 120px;
+                    height: 30px;
+                    border: 1px solid $main-color;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    a{
+                        text-decoration: none;
+                        color:#fff;
+                    }
+                }
+            }
+            .social-col{
+                flex-basis: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: end;
+                h3{
+                    color:$main-color;
+                }
+            }
+        }
+
+    } 
 }

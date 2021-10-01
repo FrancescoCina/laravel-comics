@@ -48,8 +48,26 @@
                 <img src="{{ asset('images/dc-logo-bg.png') }}" alt="Logo DC Background">
             </div>
         </div>
-        <div class="bottom-footer">
-            
+    </div>
+    <div class="bottom-footer">
+        <div class="container">
+            <div class="cols">
+                <div class="button-col">
+                    <div class="button">
+                        <a href="">SIGN UP NOW!</a>
+                    </div>
+                </div>
+                <div class="social-col">
+                    <h3 class="mx-3">FOLLOW US</h3>
+                    <img  class="mx-3"src="{{ asset('images/footer-facebook.png') }}" alt="Logo Facebook">
+                    <img  class="mx-3"src="{{ asset('images/footer-twitter.png') }}" alt="Logo Twitter">
+                    <img  class="mx-3"src="{{ asset('images/footer-youtube.png') }}" alt="Logo Youtube">
+                    <img  class="mx-3"src="{{ asset('images/footer-pinterest.png') }}" alt="Logo Pinteres">
+                    <img  class="mx-3"src="{{ asset('images/footer-periscope.png') }}" alt="Logo Periscope">
+
+
+                </div>
+            </div>
         </div>
     </div>
 </footer>
