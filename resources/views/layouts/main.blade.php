@@ -12,6 +12,8 @@
     <main>
         @include('includes.jumbotron')
         @yield('comics')
+        @yield('action-comics')
+
         @yield('services')
     </main>
     @include('includes.footer')
