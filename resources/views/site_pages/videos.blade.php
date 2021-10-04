@@ -1,13 +1,9 @@
 @extends('layouts.main')
 
-@section('title', 'Home')
-
-@section('name')
-    
-@endsection
+@section('title', 'Videos')
 
 @section('content')
     <div class="content-wrapper">
-        <h1>HOME</h1>
+        <h1>Videos</h1>
     </div>
 @endsection

@@ -45,9 +45,6 @@ header ul li a {
   text-transform: uppercase;
   font-weight: bold;
 }
-header ul li a:hover {
-  border-bottom: 4px solid #0282f9;
-}
 
 footer {
   height: 600px;
@@ -301,4 +298,18 @@ img {
 
 .mx-3 {
   margin: 0 1.5rem;
+}
+
+.active {
+  border-bottom: 4px solid #0282f9;
+}
+
+.content-wrapper {
+  height: 500px;
+  background-color: yellow;
+  padding: 50px;
+}
+.content-wrapper h1 {
+  color: #0282f9;
+  text-align: center;
 }

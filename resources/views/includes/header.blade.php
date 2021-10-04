@@ -9,22 +9,17 @@
     <div class="container">
         <div class="header-bottom">
             <div class="logo">
-                <a class="active" href="{{ route('home') }}"><img src="{{ asset('images/dc-logo.png') }}" alt="Logo"></a>
+                <a href="{{ route('home') }}"><img src="{{ asset('images/dc-logo.png') }}" alt="Logo"></a>
                 
             </div>
             <div class="navbar">
                 <nav>
                     <ul>
-                        <li><a href="">Characters</a></li>
-                        <li><a href="">Comics</a></li>
-                        <li><a href="">Movies</a></li>
-                        <li><a href="">Tv</a></li>
-                        <li><a href="">Games</a></li>
-                        <li><a href="">Collectibles</a></li>
-                        <li><a href="">Videos</a></li>
-                        <li><a href="">Fans</a></li>
-                        <li><a href="">News</a></li>
-                        <li><a href="">Shop</a></li>
+                        @foreach ($links as $link)
+                            
+                        <li><a class="{{ request()->routeIs($link['route']) ? "active" : "" }}" href="{{ route($link['route']) }}">{{ $link['title'] }}</a></li>
+                     
+                        @endforeach
                     </ul>
                 </nav>
             </div>
@@ -39,3 +34,12 @@
 
 
 </header>
+
+
+
+{{-- 
+    
+    class="{{ request()->routeIs($link) }}"
+    
+    
+    --}}

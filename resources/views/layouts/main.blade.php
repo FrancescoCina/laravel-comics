@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
-    @include('includes.header')
+    @include('includes.header', ['links' => config('header_links')])
     <main>
         @include('includes.jumbotron')
         @yield('comics')
         @yield('comic')
-
+        @yield('content')
         @yield('services')
     </main>
     @include('includes.footer')
