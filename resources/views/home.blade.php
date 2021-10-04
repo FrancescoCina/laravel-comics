@@ -11,7 +11,9 @@
             @foreach ($comics as $index => $comic)
             <div class="card">
                
-                <a href="{{ url("/comics/$index") }}"><img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}"></a>
+                {{-- <a href="{{ url("/comics/$index") }}"><img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}"></a> --}}
+                <a href="{{ route('comic', ['id'=> $index]) }}"><img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}"></a>
+
                 <h5>{{ $comic['title'] }}</h5>
             </div>
                     

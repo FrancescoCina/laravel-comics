@@ -9,7 +9,8 @@
     <div class="container">
         <div class="header-bottom">
             <div class="logo">
-                <a href="{{ route('home') }}"><img src="{{ asset('images/dc-logo.png') }}" alt="Logo"></a>
+                <a class="active" href="{{ route('home') }}"><img src="{{ asset('images/dc-logo.png') }}" alt="Logo"></a>
+                
             </div>
             <div class="navbar">
                 <nav>
