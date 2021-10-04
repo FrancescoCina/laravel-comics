@@ -12,7 +12,7 @@
     <main>
         @include('includes.jumbotron')
         @yield('comics')
-        @yield('action-comics')
+        @yield('comic')
 
         @yield('services')
     </main>

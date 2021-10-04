@@ -6,20 +6,23 @@
 
 
 
-@section('action-comics')
+@section('comic')
     
 
-<section id="action-comics">
+<section id="comic">
+
     <div class="blu-bar">
-        <div class="container"></div>
+        <div class="container">
+            <img src="{{ $comics['thumb'] }}" alt="{{ $comics['title'] }}">
+        </div>
     </div>
     <div class="container">
         <div class="main-section">
             <div class="text">
-                    <h4>{{ $comics[0]['title'] }}</h4>
+                    <h4>{{ $comics['title'] }}</h4>
                     <div class="info-purchase">
                         <div class="price-box">
-                            <h6>U.S. Price: {{ $comics[0]['price'] }}</h6>
+                            <h6>U.S. Price: {{ $comics['price'] }}</h6>
                             <h6>AVAILABLE</h6>
                         </div>
                         <div class="availability">
@@ -30,7 +33,7 @@
                     </div>
                     <div class="description">
                         <p>
-                            {{ $comics[0]['description']  }}
+                            {{ $comics['description']  }}
                         </p>
                     </div>
 
@@ -51,7 +54,7 @@
                             Art by:
                         </div>
                         <div class="by-items">
-                            @foreach ($comics[0]['artists'] as $artist)
+                            @foreach ($comics['artists'] as $artist)
                                 {{$artist}},
                                 @if ($loop->last) {{ $artist }}. 
                                 @endif
@@ -63,7 +66,7 @@
                             Written by:
                         </div>
                         <div class="by-items">
-                            @foreach ($comics[0]['writers'] as $writer)
+                            @foreach ($comics['writers'] as $writer)
                                 {{$writer}},
                                 @if ($loop->last) {{ $writer }}. 
                                 @endif
@@ -78,7 +81,7 @@
                             Series:
                         </div>
                         <div class="by-items">
-                           {{ $comics[0]['series'] }}
+                           {{ $comics['series'] }}
                         </div>
                     </div>
                     <div class="row">
@@ -86,7 +89,7 @@
                             U.S. Price:
                         </div>
                         <div class="by-items">
-                           {{ $comics[0]['price'] }}
+                           {{ $comics['price'] }}
                         </div>
                     </div>
                     <div class="row">
@@ -94,7 +97,7 @@
                             On Sale Date:
                         </div>
                         <div class="by-items">
-                           {{ $comics[0]['sale_date'] }}
+                           {{ $comics['sale_date'] }}
                         </div>
                     </div>
                 </div>

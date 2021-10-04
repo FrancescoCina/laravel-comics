@@ -8,10 +8,10 @@
 <section id="comics">
     <div class="container">
         <div class="comics-container">
-            @foreach ($comics as $comic)
+            @foreach ($comics as $index => $comic)
             <div class="card">
                
-                <a href="{{ route('action-comics') }}"><img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}"></a>
+                <a href="{{ url("/comics/$index") }}"><img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}"></a>
                 <h5>{{ $comic['title'] }}</h5>
             </div>
                     

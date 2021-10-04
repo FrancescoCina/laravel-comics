@@ -1,8 +1,13 @@
-#action-comics{
-
+#comic{
+    position:relative;
     .blu-bar{
         height: 60px;
         background-color: $main-color;
+        img{
+            border: 1px solid #fff;
+            position: absolute;
+            top: -250px;
+        }
     }
     .main-section{
         display: flex;

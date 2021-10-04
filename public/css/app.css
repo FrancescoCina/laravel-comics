@@ -201,35 +201,43 @@ footer .bottom-footer .cols .social-col h3 {
   margin-left: 5px;
 }
 
-#action-comics .blu-bar {
+#comic {
+  position: relative;
+}
+#comic .blu-bar {
   height: 60px;
   background-color: #0282f9;
 }
-#action-comics .main-section {
+#comic .blu-bar img {
+  border: 1px solid #fff;
+  position: absolute;
+  top: -250px;
+}
+#comic .main-section {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#action-comics .main-section .text {
+#comic .main-section .text {
   flex-basis: 66.6666666667%;
 }
-#action-comics .main-section .text h4 {
+#comic .main-section .text h4 {
   font-size: 25px;
   text-transform: uppercase;
 }
-#action-comics .main-section .text h6 {
+#comic .main-section .text h6 {
   color: #fff;
 }
-#action-comics .main-section .text .description {
+#comic .main-section .text .description {
   padding: 15px;
 }
-#action-comics .main-section .text .description p {
+#comic .main-section .text .description p {
   line-height: 20px;
 }
-#action-comics .main-section .text .info-purchase {
+#comic .main-section .text .info-purchase {
   display: flex;
 }
-#action-comics .main-section .text .info-purchase .price-box {
+#comic .main-section .text .info-purchase .price-box {
   height: 25px;
   background-color: #55ba59;
   display: flex;
@@ -239,7 +247,7 @@ footer .bottom-footer .cols .social-col h3 {
   border: 0.5px solid #8b8181;
   width: 75%;
 }
-#action-comics .main-section .text .info-purchase .availability {
+#comic .main-section .text .info-purchase .availability {
   height: 25px;
   background-color: #55ba59;
   display: flex;
@@ -249,35 +257,35 @@ footer .bottom-footer .cols .social-col h3 {
   border: 0.5px solid #8b8181;
   width: 25%;
 }
-#action-comics .main-section .advertisement {
+#comic .main-section .advertisement {
   flex-basis: 33.3333333333%;
   padding: 0 25px;
   position: relative;
 }
-#action-comics .main-section .advertisement #title-advertisement {
+#comic .main-section .advertisement #title-advertisement {
   text-transform: uppercase;
   color: grey;
   position: absolute;
   top: -30px;
   right: 108px;
 }
-#action-comics #credits {
+#comic #credits {
   height: 500px;
   background-color: #f6f6f6;
 }
-#action-comics #credits .credits-container {
+#comic #credits .credits-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#action-comics #credits .credits-container h4 {
+#comic #credits .credits-container h4 {
   font-size: 20px;
 }
-#action-comics #credits .col-6 {
+#comic #credits .col-6 {
   flex-basis: 50%;
   padding: 20px;
 }
-#action-comics #credits .col-6 .row {
+#comic #credits .col-6 .row {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -285,9 +293,9 @@ footer .bottom-footer .cols .social-col h3 {
   border-bottom: 1px solid #cfcece;
   padding: 10px;
 }
-#action-comics #credits .col-6 .row .by.items {
+#comic #credits .col-6 .row .by.items {
   flex-basis: 50%;
 }
-#action-comics #credits .col-6 .row .made-by {
+#comic #credits .col-6 .row .made-by {
   flex-basis: 20%;
 }
