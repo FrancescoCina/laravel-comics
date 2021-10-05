@@ -26,7 +26,7 @@
             <div class="search">
                 <input type="search" class="search-field" placeholder="Search">
             </div>
-        </div>
+        </div>  
     </div>
 
 

@@ -16,7 +16,7 @@
         @yield('content')
         @yield('services')
     </main>
-    @include('includes.footer')
+    @include('includes.footer', ['links'=> config('header_links')])
   
 </body>
 </html>

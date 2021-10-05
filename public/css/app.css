@@ -304,6 +304,10 @@ img {
   border-bottom: 4px solid #0282f9;
 }
 
+.clickable {
+  cursor: pointer;
+}
+
 .content-wrapper {
   height: 500px;
   background-color: yellow;

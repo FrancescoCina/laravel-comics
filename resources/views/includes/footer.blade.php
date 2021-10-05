@@ -4,13 +4,9 @@
             <div class="footer-links">
                 <ul>
                     <h5>Dc Comics</h5>
-                    <li><a href="">Characters</a></li>
-                    <li><a href="">Comics</a></li>
-                    <li><a href="">Movies</a></li>
-                    <li><a href="">TV</a></li>
-                    <li><a href="">Games</a></li>
-                    <li><a href="">Videos</a></li>
-                    <li><a href="">News</a></li>
+                    @foreach ($links as $link)
+                    <li><a href="{{ route($link['route']) }}">{{$link['title']}}</a></li> 
+                    @endforeach
                 </ul>
                 <ul>
                     <h5>DC</h5>
