@@ -1,0 +1,19 @@
+#icons{
+    margin-top: 150px;
+    display: flex;
+    border: 1px solid #cfcece;
+    .icon-box{
+    border: 1px solid #cfcece;
+        padding: 15px;
+        flex-basis: 25%;
+        display: flex;
+        justify-content: space-between;
+        h6 {
+            text-transform: uppercase;
+        }
+        figure{
+            width: 50px;
+
+        }
+    }
+}

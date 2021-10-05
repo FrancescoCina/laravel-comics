@@ -118,6 +118,25 @@ footer .bottom-footer .cols .social-col h3 {
   color: #0282f9;
 }
 
+#icons {
+  margin-top: 150px;
+  display: flex;
+  border: 1px solid #cfcece;
+}
+#icons .icon-box {
+  border: 1px solid #cfcece;
+  padding: 15px;
+  flex-basis: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+#icons .icon-box h6 {
+  text-transform: uppercase;
+}
+#icons .icon-box figure {
+  width: 50px;
+}
+
 #jumbotron {
   height: 350px;
   background-image: url("../images/jumbotron.jpg");

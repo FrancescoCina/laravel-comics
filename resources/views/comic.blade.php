@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 
-@section('title') Action Comics
+@section('title') {{$comics['title']}}
 @endsection
 
 
@@ -104,6 +104,7 @@
 
             </div>
         </div>
+        @include('includes.icons_in_comic')
     </section>
 </section>
 @endsection
